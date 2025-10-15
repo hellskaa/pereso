@@ -58,3 +58,7 @@
  grid-column: 2; /* Positionne la description dans la deuxième colonne */
  display: block;
 }
+
+titrep {font-size:var(--medium-size);font-family:var(--title_font);font-weight:800;
+        text-transform:uppercase;margin-left:20px;line-height:40px;background:var(--gradient);
+        -webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing: 1px;}
