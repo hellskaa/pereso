@@ -4,7 +4,7 @@
 .chrono {
  width: 100%; /* Largeur */
  display: grid;
- grid-template-columns: 50px 1fr; /* Permet de créer deux colonnes. 100px = premier colonne, 1fr = deuxième colonne qui comble l'espace restant */
+ grid-template-columns: 45px 1fr; /* Permet de créer deux colonnes. 100px = premier colonne, 1fr = deuxième colonne qui comble l'espace restant */
  grid-auto-rows: auto;
  row-gap: 20px; /* Espace entre les lignes */
  column-gap: 60px; /* Espace entre les colonnes */
@@ -61,5 +61,5 @@
 }
 
 titrep {font-size:var(--medium-size);font-family:var(--title_font);font-weight:800;
-        text-transform:uppercase;margin-left:20px;line-height:40px;background:var(--gradient);
+        margin-left:20px;line-height:40px;background:var(--gradient);
         -webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing: 1px;}
