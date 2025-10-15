@@ -2,7 +2,7 @@
 /* Chronologie */
 /* Conteneur de la chronologie */
 .chrono {
- width: 480px; /* Largeur */
+ width: 100%; /* Largeur */
  display: grid;
  grid-template-columns: 50px 1fr; /* Permet de créer deux colonnes. 100px = premier colonne, 1fr = deuxième colonne qui comble l'espace restant */
  grid-auto-rows: auto;
